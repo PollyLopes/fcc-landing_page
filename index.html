@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width inital-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <meta name="author" content="Pollyana Lopes" />
+    <title>Landing Page</title>
+    <meta name="description" content="A land page designed for fcc website as a assignment" />
+</head>
+
+<body>
+
+    <!--colocar foto de fundo do cabecalho-->
+    <header id="header">
+
+        <img id="header-img" src="img/logo.jpg" alt="logo" width="80" height="80" />
+        <!--<img id="header-img" src="img/eclair-3366430_1920.jpg" alt="" width="500" />
+
+            colocar a foto logo-->
+        <nav id="nav-bar">
+            <a href="#about" class="nav-link"> About</a>
+            <a href="#portifolio" class="nav-link"> Portifolio</a>
+            <a href="#contact" class="nav-link"> Contact us</a>
+
+        </nav>
+
+        <!-- <p id="subtitle"> Contact us for personalize your treat!</p>
+       -->
+    </header>
+
+
+    <section id="container">
+
+        <div id="about">
+            <h2>About</h2>
+            <p>
+                We are a familiar business which looking foward to take care of our clients since 2015.<br> We are always improving ourseves, our skills, and our products line in prol to keep bring the best quality, brighter produte and most delicious
+                treats for you, your family, and friends.<br> We look foward to continue in your family and turn your parties even more memorables!
+
+            </p>
+        </div>
+
+        <video width="284" controls id="video">
+            <source src="img/ID_4109934.mp4" type="video/mp4"/>
+        Your browser does not support HTML video    
+        </video>
+    </section>
+
+
+
+    <section id="portifolio">
+        <!-- flexbox here-->
+
+        <article>
+            <h3>Decorated Cake</h3>
+            <img class="img-dec" src="img/cakes-1681543_1280.jpg" alt="donots-cake" width="267" height="200">
+        </article>
+
+        <article>
+            <h3>Cupcakes</h3>
+            <img class="img-dec" src="img/cupcake-2749204_1920.jpg" alt="cupcakes" width="266" height="200">
+        </article>
+
+        <article>
+            <h3>Macarons</h3>
+            <img class="img-dec" src="img/cake-sale-1566258_1920.jpg" alt="macarons" width="266" height="200">
+
+        </article>
+        <article>
+            <h3>Special Pies</h3>
+            <img class="img-dec" src="img/strawberry-pie-3140004_1920.jpg" alt="straberry-pie" width="266" height="200">
+        </article>
+        <article>
+            <h3>Cookies</h3>
+            <img class="img-dec" src="img/valentines-day-3984157_1280.jpg" alt="straberry-pie" width="266" height="200">
+        </article>
+        <article>
+            <h3>Donuts</h3>
+            <img class="img-dec" src="img/donut.jpg" alt="straberry-pie" width="266" height="200">
+        </article>
+
+    </section>
+    <section id="contact" class="wrap">
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <h4> Contact us for any Suggestion, Claim, or question.
+                <br/> We are glad to help! </h4>
+
+            <div id="form-wrap">
+                <div class="row">
+
+                    <label for="name">Name</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name here.">
+                    <br>
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email here.">
+                    <br>
+                    <label for="tel">Telephone</label><br>
+                    <input type="tel" id="tel" name="tel" placeholder="Enter your telephone number here.">
+
+                </div>
+                <div class="row">
+                    <textarea rows="9" placeholder="Please enter your comment here..."></textarea>
+                </div>
+            </div>
+            <div class="btn">
+                <input type="submit" id="submit">
+            </div>
+
+        </form>
+    </section>
+    <footer>
+
+        <address>where are we?<br/>
+            
+            20 lower road, <br/>
+            springfild - FCC<br/>
+            post t13 ht235<br/>
+        </address>
+
+        <address>Working hours:<br/>
+
+        Fell free to contact us from Monday to Saturday<br/>
+        we start as early as 6am and just close 9pm!<br/>
+    Now, you can also speak with our team by whatsapp <br/>
+    and keep uptodate abote our special prices!</address>
+
+
+    </footer>
+
+
+</body>
+
+</html>
