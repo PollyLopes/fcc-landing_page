@@ -149,9 +149,9 @@
     }
     
     #form {
-       background-image:url(../img/2.jpg);
-       background-size:cover;
-       background-position:center;
+       background-image: url(../img/2.jpg);
+        background-size: cover;
+        background-position: center;
         background-color: rgba(228, 18, 140, 0.7);
         border-radius: 10px;
         max-width: 700px;
