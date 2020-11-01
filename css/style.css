@@ -92,17 +92,14 @@
         nav {
             top: 3%;
         }
-        /* #subtitle {
-            top: 10px;
-        }*/
+        
     }
     
+   
+    
     #container {
-        display: flex;
+       display: flex;
         flex-wrap: wrap;
-    }
-    
-    #container {
         margin: 5% 0%;
         justify-content:space-between;
         flex: 100%;
