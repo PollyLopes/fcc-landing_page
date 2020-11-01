@@ -70,18 +70,18 @@
             height: 100px;
         }
         #container,
-        #form-wrap {
+        #form {
             flex-direction: row;
             justify-content: center;
             align-content: center;
         }
         #about,
         #video {
-            width: 80vw;
-            max-width: 400px;
+            width: 90vw;
+            max-width: 450px;
             height: 90vw;
             max-height: 600px;
-           justify-content: center;
+           
            margin:7px;
         }
         .row {
