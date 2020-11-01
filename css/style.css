@@ -50,7 +50,7 @@
         background-color: rgb(250, 144, 162);
         margin: 5px;
     }
-    
+    #submit:hover,
     a:hover {
         background-color: rgba(228, 18, 140, 0.7);
     }
@@ -187,6 +187,7 @@
         font-size: 100%;
         margin-left: 25%;
         margin-bottom: 20px;
+       background-color: rgb(250, 144, 162);
     }
     
     footer {
