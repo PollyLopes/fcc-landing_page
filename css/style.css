@@ -78,7 +78,8 @@
         #about,
         #video,
         .row {
-            width: 100%;
+            width: 80vw;
+            max-width: 400px;
         }
         nav {
             top: 3%;
@@ -140,10 +141,14 @@
     }
     
     #form {
+        background-image: url(../img/2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
         background-color: rgba(228, 18, 140, 0.7);
         border-radius: 10px;
         max-width: 700px;
         width: 90vw;
+       
     }
     
     #contact {
