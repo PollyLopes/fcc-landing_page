@@ -67,7 +67,7 @@
     
     @media (max-width: 750px) {
         header {
-            height: 170px;
+            height: 150px;
         }
         #container,
         #form {
@@ -82,7 +82,7 @@
             height: 90vw;
             max-height: 600px;
            
-           margin:7px;
+           margin:0px 7px;
         }
         .row {
             width: 100%
