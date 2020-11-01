@@ -76,10 +76,16 @@
             align-content: center;
         }
         #about,
-        #video,
-        .row {
+        #video {
             width: 80vw;
             max-width: 400px;
+            height: 70vw;
+            max-height: 400px;
+        }
+        .row {
+            width: 100%
+        }
+           
         }
         nav {
             top: 3%;
@@ -144,6 +150,7 @@
         background-image: url(../img/2.jpg);
         background-repeat: no-repeat;
         background-size: cover;
+        background-position: center;
         background-color: rgba(228, 18, 140, 0.7);
         border-radius: 10px;
         max-width: 700px;
