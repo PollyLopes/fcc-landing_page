@@ -50,7 +50,7 @@
         background-color: rgb(250, 144, 162);
         margin: 5px;
     }
-    
+    #submit:hover,
     a:hover {
         background-color: rgba(228, 18, 140, 0.7);
     }
@@ -180,6 +180,7 @@
     }
     
     #submit {
+       background-color:rgb(250, 144, 162);
         width: 50%;
         border-radius: 10px;
         font-size: 100%;
