@@ -181,6 +181,9 @@
                 padding: 0px;
                 flex: 100%;
             }
+               #video {
+                max-height: min-content;
+            }
             #contact {
                 width: 600px;
             }
