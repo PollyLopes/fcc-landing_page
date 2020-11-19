@@ -190,6 +190,12 @@
             margin-right: 2%;
         }
         
+        span {
+            font-weight: bold;
+            display: block;
+            
+        }
+        
         @media screen and (max-width:850px) {
             body {
                 margin: 25% auto;
