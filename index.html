@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8" />
@@ -35,63 +35,62 @@
 
         <div id="about">
             <h2>About</h2>
-            <p><pre>
-                
-Lorem ipsum dolor sit amet, 
-consectetur adipiscing Lorem ipsum 
-dolor sit amet, consectetur adipiscing elit,
-sed do eiusmod tempor incididunt ut labore et dolore 
-magna aliqua. Ut enim ad minim veniam, quis nostrud 
-ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-Duis aute irure dolor in reprehenderit in voluptate velit 
-esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
-cupidatat non proident, sunt in culpa qui officia 
-deserunt mollit anim id est laborum.
+            <p>
+                Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó
+                una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos, quedando esencialmente igual al original.
+                Fue popularizado en los 60s con la creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum.
 
-            </pre></p>
+            </p>
         </div>
 
-        <video width="284" control autoplay id="video">
+        <video width="284" autoplay id="video">
             <source src="img/ID_4109934.mp4" type="video/mp4"/>
         Your browser does not support HTML video    
         </video>
     </section>
 
-    <div id="wrap">
-        <h2>Portifolio</h2>
-        <section id="portifolio">
+
+
+    <section>
+        <fieldset>
+            <legend>
+                <h3>Portifolio</h3>
+            </legend>
             <!-- flexbox here-->
 
-            <article>
-                <h3>Decorated Cake</h3>
-                <img class="img-dec" src="img/cakes-1681543_1280.jpg" alt="donots-cake" width="300" height="250">
-            </article>
+            <div id="portifolio">
+                <article>
+                    <h3>Decorated Cake</h3>
+                    <img class="img-dec" src="img/cakes-1681543_1280.jpg" alt="donots-cake" width="300" height="250">
+                </article>
 
-            <article>
-                <h3>Cupcakes</h3>
-                <img class="img-dec" src="img/cupcake-2749204_1920.jpg" alt="cupcakes" width="300" height="240">
-            </article>
+                <article>
+                    <h3>Cupcakes</h3>
+                    <img class="img-dec" src="img/cupcake-2749204_1920.jpg" alt="cupcakes" width="300" height="240">
+                </article>
 
-            <article>
-                <h3>Macarons</h3>
-                <img class="img-dec" src="img/cake-sale-1566258_1920.jpg" alt="macarons" width="300" height="240">
+                <article>
+                    <h3>Macarons</h3>
+                    <img class="img-dec" src="img/cake-sale-1566258_1920.jpg" alt="macarons" width="300" height="240">
 
-            </article>
-            <article>
-                <h3>Special Pies</h3>
-                <img class="img-dec" src="img/strawberry-pie-3140004_1920.jpg" alt="straberry-pie" width="300" height="240">
-            </article>
-            <article>
-                <h3>Cookies</h3>
-                <img class="img-dec" src="img/valentines-day-3984157_1280.jpg" alt="straberry-pie" width="300" height="240">
-            </article>
-            <article>
-                <h3>Donuts</h3>
-                <img class="img-dec" src="img/donut.jpg" alt="straberry-pie" width="300" height="240">
-            </article>
+                </article>
+                <article>
+                    <h3>Special Pies</h3>
+                    <img class="img-dec" src="img/strawberry-pie-3140004_1920.jpg" alt="straberry-pie" width="300" height="240">
+                </article>
+                <article>
+                    <h3>Cookies</h3>
+                    <img class="img-dec" src="img/valentines-day-3984157_1280.jpg" alt="straberry-pie" width="300" height="240">
+                </article>
+                <article>
+                    <h3>Donuts</h3>
+                    <img class="img-dec" src="img/donut.jpg" alt="straberry-pie" width="300" height="240">
+                </article>
+            </div>
+        </fieldset>
+    </section>
 
-        </section>
-    </div>
+
 
     <section id="contact">
         <form action="https://www.freecodecamp.com/email-submit" id="form">
@@ -112,7 +111,7 @@ deserunt mollit anim id est laborum.
 
                 </div>
                 <div class="row">
-                    <textarea rows="12" cols="10" placeholder="Please enter your comment here..."></textarea>
+                    <textarea rows="12" placeholder="Please enter your comment here..."></textarea>
                 </div>
             </div>
             <div class="btn">
@@ -123,25 +122,26 @@ deserunt mollit anim id est laborum.
     </section>
     <footer>
 
-        <address><b>where are we?</b><br/><br/>
+        <address><span>Where are we?</span>
             
-            20 lower road, <br/>
-            springfild - FCC<br/>
-            post t13 ht235<br/>
+            <p>20 lower road, 
+            springfild - FCC
+            post t13 ht235</p>
         </address>
 
-        <address><b>Working hours:</b><br/><br/>
+        <address><span>Working hours</span>
 
-        Fell free to contact us from Monday to Saturday<br/>
-        we start as early as 6am and just close 9pm!<br/>
-    Now, you can also speak with our team by whatsapp <br/>
-    and keep uptodate abote our special prices!</address>
+        <p>
+        We start as early as 6am and just close 9pm!
+        Fell free to contact us from Monday to Saturday.
+        Now, you can also speak with our team <img src="img/whats.jpg" alt="whatssap simbol" width="20" height="20"/> any time!</p>
+        </address>
 
 
     </footer>
 
-
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
+
 </html>
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
