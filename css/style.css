@@ -16,7 +16,7 @@
             background-position: center;
             background-size: cover;
             width: 80%;
-            height: 32%;
+            height: 30%;
             position: fixed;
             top: 0%;
             left: 10%;
@@ -26,34 +26,36 @@
         #header-img {
             position: relative;
             border-radius: 50%;
-            margin: .3em;
-            width: 5em;
-            height: 5em;
+            margin: 1%;
+            width: 12%;
+            height: auto;
             float: left;
         }
         
         nav {
             position: relative;
             float: right;
-            padding: 7px;
-            margin: 10px 0px;
+            padding: 1.5%;
+            margin: 1.5% auto;
         }
         
         a {
             position: relative;
-            padding: 10px;
+            padding: 0.5em;
+            margin: 0 .5em;
+            width: 100%;
+            height: auto;
             text-decoration: none;
             color: rgb(0, 0, 0);
             font-weight: bold;
-            border-radius: 50%;
+            border-radius: 20px;
             background-color: rgb(250, 144, 162);
-            margin: 0px 3px;
         }
         
         #submit:hover,
         a:hover {
-            border: black 2px dashed;
-            font-size: 110%;
+            border: black 2px double;
+            font-size: 1.7em;
         }
         
         main {
@@ -61,66 +63,65 @@
         }
         
         #container {
-            display: flex;
-            flex-wrap: wrap;
-            width: 100%;
-            justify-content: center;
-            align-content: center;
-            margin: 0px;
+            padding: 2%;
+            margin: 10% auto;
         }
         
         #about {
-            padding: 20px;
-            margin: 0px 20px 45px;
+            padding: 2%;
+            margin: 10% auto;
             text-align: justify;
-            font-size: 120%;
+            font-size: 1.5em;
+            line-height: 1.5em;
         }
         
         #video {
-            padding: 20px;
-            margin: 45px;
+            padding: 10px;
+            margin: 10% auto;
             height: auto;
-            width: 50vw;
+            width: 90%;
         }
         
         h2,
         h3 {
             text-align: center;
-            padding: 10px;
-            margin: 15px;
-            font-size: 150%;
+            padding: 3%;
+            margin: 2%;
+            font-size: 1.5em;
         }
         
-        #wrap {
+        fieldset {
+            padding: 2%;
             border: 10px double white;
-            padding: 50px;
-            margin: 45px 5px;
+        }
+        
+        legend {
+            font-size: 2.5em;
+            font-weight: bold;
         }
         
         #portifolio {
             display: flex;
             flex-wrap: wrap;
-            width: 100%;
-            margin: 20px 0px;
-            justify-content: space-between;
+            margin: 10% auto;
         }
         
         article,
         #video {
             background-color: rgba(255, 255, 255, 0.6);
-            border-radius: 5px;
+            border-radius: 10px;
         }
         
         article {
-            margin: 45px 20px;
-            padding: 3px;
-            flex: 25%;
+            margin: 2%;
+            padding: 2%;
+            flex: 30%;
         }
         
         .img-dec {
             width: 100%;
             height: auto;
-            margin: 0px;
+            margin: 0 auto;
             border-radius: 5px;
         }
         
@@ -129,10 +130,10 @@
             background-size: cover;
             background-position: center;
             background-color: rgba(228, 18, 140, 0.7);
-            border-radius: 10px;
-            width: 100%;
-            padding: 10px;
-            margin: 50px 0px;
+            border-radius: 25px;
+            width: 90%;
+            padding: 10%;
+            margin: 50px auto;
         }
         
         #form-wrap {
@@ -140,135 +141,95 @@
             flex-wrap: wrap;
         }
         
-        #contact {
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            flex-wrap: wrap;
-            width: 100%;
-            margin: 10px 20px;
-        }
-        
         .row {
             font-weight: bold;
-            margin: 5px 10px;
+            margin: auto;
             padding: 10px;
-            flex: 45%;
+            flex: 50%;
         }
         
-        input,
-        textarea {
+        textarea,
+        input {
             width: 100%;
-            border-radius: 5px;
+            height: auto;
             padding: 6px;
+            border-radius: 1em;
+        }
+        
+        #form>h3 {
+            background-color: rgba(253, 155, 172, 0.6);
+            border-radius: 5em;
         }
         
         label {
-            font-size: 25px;
+            font-size: 1.5em;
+            background-color: rgba(253, 155, 172, 0.6);
+            border-radius: 5em;
+            line-height: 1.5em;
+            padding: 2px;
         }
         
         #submit {
             background-color: rgb(250, 144, 162);
-            width: 50%;
-            border-radius: 10px;
-            font-size: 100%;
-            margin-left: 25%;
-            margin-bottom: 20px;
+            width: 70%;
+            border-radius: 5em;
+            margin: auto 15%;
+            font-size: 1.5em;
         }
         
         footer {
             display: flex;
             flex-wrap: wrap;
-            margin: 40px;
-            justify-content: space-around;
         }
         
         address {
-            padding: 5px;
-            flex: 35%;
+            flex: 45%;
+            text-align: center;
             justify-content: center;
-            margin-left: 10px;
+            line-height: 1.5em;
+            margin-right: 2%;
         }
         
         @media screen and (max-width:850px) {
             body {
-                margin: 25% 0%;
-            }
-            #about,
-            #video {
-                width: 90%;
-                height: auto;
-                max-height: 350px;
-                padding: 5px;
-                margin: 25px;
-                font-size: 15px;
-            }
-            #wrap {
-                width: 95%;
-                height: auto;
-                margin: 0 auto;
-            }
-            #portifolio {
-                justify-content: center;
-            }
-            .img-dec {
-                width: 250px;
-                height: auto;
-                padding: 5%;
+                margin: 25% auto;
             }
             header {
-                height: auto;
+                height: 22%;
                 width: 100%;
-                left: 0%;
-                right: 0%;
+                right: 0;
+                left: 0;
             }
-            nav {
-                padding: 0px;
-                margin: 2% 0%;
-            }
-            a {
-                padding: 5px;
-                margin: 0px;
-                font-size: small;
+            .row,
+            address,
+            article {
+                margin: 2% 10%;
+                flex: 100%;
             }
             #header-img {
-                width: 20%;
-                height: auto;
+                margin: 1%;
+                width: 15%;
             }
-            footer {
-                margin: 20px 15px;
+            nav {
+                padding: 1%;
+                margin: 1.5%;
             }
-            address {
-                text-align: center;
-                font-size: 15px;
-                flex: 100%;
-                margin: 15px 0px;
+            a {
+                padding: .2em;
+                margin: 0%;
+                font-size: 1em;
+                font-weight: normal;
             }
-            #contact {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                flex-wrap: wrap;
+            #about,
+            label,
+            h3,
+            #submit {
+                font-size: 1em;
+            }
+            #video {
                 width: 100%;
-                margin: 10px 5px;
             }
-            .row {
-                font-weight: bold;
-                margin: 10px 0px;
-                flex: 100%;
+            #form {
+                padding: 5%;
             }
-            input,
-            textarea {
-                width: 100%;
-                border-radius: 5px;
-                padding: 6px;
-            }
-            label {
-                font-size: small;
-            }
-            form>h3 {
-                font-size: small;
-                border-radius: 5px;
-                background-color: rgba(255, 255, 255, 0.8);
-        }        
         }
