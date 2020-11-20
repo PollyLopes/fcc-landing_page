@@ -6,7 +6,7 @@
         
         body {
             background-color: rgb(253, 155, 172);
-            margin: 15% 15%;
+            margin: 7% 15%;
         }
         
         header {
@@ -16,7 +16,7 @@
             background-position: center;
             background-size: cover;
             width: 80%;
-            height: 30%;
+            height: 32%;
             position: fixed;
             top: 0%;
             left: 10%;
@@ -35,14 +35,14 @@
         nav {
             position: relative;
             float: right;
-            padding: 1.5%;
-            margin: 1.5% auto;
+            padding: 1%;
+            margin: 1% auto;
         }
         
         a {
             position: relative;
             padding: 0.5em;
-            margin: 0 .5em;
+            margin: 0 .2em;
             width: 100%;
             height: auto;
             text-decoration: none;
@@ -55,7 +55,7 @@
         #submit:hover,
         a:hover {
             border: black 2px double;
-            font-size: 1.7em;
+            font-size: 1.1em;
         }
         
         main {
@@ -193,12 +193,11 @@
         span {
             font-weight: bold;
             display: block;
-            
         }
         
         @media screen and (max-width:850px) {
             body {
-                margin: 25% auto;
+                margin: 25% 3%;
             }
             header {
                 height: 22%;
